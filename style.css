@@ -1,0 +1,155 @@
+@media screen and (max-width:1000px){
+    /* .row{
+        width: 600px;
+    } */
+    .paragraph p {
+        font-size: 12px;
+    }
+    .col-md-12  h3{
+        font-size: 50px;
+    }
+    /* img{
+        background-image: url(backgroun/bg.png);
+        width: 600px;
+    } */
+}
+/* @media screen and (max-width:402px){
+    .paragraph{
+        font-size: 8px;
+    }
+} */
+
+/* @media screen and (max-width:1000px){
+    .paragraph{
+        font-size: 12px;
+    } */
+/* } */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Lato:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-left: 12px;
+} */
+
+#navbbar {
+    position: sticky;
+    top: 0;
+}
+#navbbar ul li a:hover {
+    color: red;
+}
+.element{
+    position: relative;
+}
+.row{
+    background-image: url("backgroun/bg.png");
+    background-size: cover;
+    height: 566px;
+}
+.container{
+    height: 550px;
+}
+.box{
+    /* background-image: url("backgroun/bg.png"); */
+    text-align: center;
+}
+.box h4{
+    color: blue;
+}
+.paragraph{
+    margin: 20px;
+    /* background-image: url("backgroun/bg.png"); */
+    text-align: center;
+    /* align-items: center; */
+    color: blue;
+    /* size: 20px; */
+    z-index: 5;
+    font-size: medium;
+
+}
+.cards{
+    display: flex;
+    overflow: none;
+    flex-wrap: wrap;
+    /* margin-right: 164px;
+    margin-left: 173px; */
+    justify-content: space-between;
+    /* z-index: -10; */
+}
+.cards1{
+    align-items: center;
+}
+
+.ask {
+    position: sticky;
+    top: 90vh;
+    left: 100vw;
+    width: 44px;
+    z-index: 9;
+}
+
+img {
+    width: 44px;
+}
+
+.head {
+    text-align: center;
+}
+
+header {
+    background-color: cyan;
+    z-index: 10;
+}
+
+.container-fluid {
+    background-color: wheat;
+}
+.map
+{
+    align-items: center;
+}
+
+.footer {
+    text-align: end;
+    text-align: center;
+    color: blueviolet;
+    background-color: antiquewhite;
+}
+
+.insta {
+    width: 43px;
+    margin: 0px 15px;
+}
+
+.email {
+    width: 20px;
+    text-decoration: none;
+}
+
+.tel {
+    margin: 20px;
+    text-decoration: none;
+}
+
+.instaa {
+    margin: 20px;
+    text-decoration: none;
+}
+
+.whatsapp {
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    width: 89px;
+}
+.contact{
+    padding: 0 20px;
+}
